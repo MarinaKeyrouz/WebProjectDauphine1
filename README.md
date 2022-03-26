@@ -1,1 +1,1 @@
-# WebProjectDauphine1
+# Project for a Web Development at Dauphine
