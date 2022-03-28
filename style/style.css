@@ -144,7 +144,7 @@ span.copyright{
   width: 100%;
   margin-left: 0px;
   top:  0px;
-   color: #C0C0C0;
+  color: #C0C0C0;
 }
 /* pied */
 table.animbg_box{
@@ -168,9 +168,9 @@ table.animbg_box{
 
 .bottom_nav ul{
   position: absolute;
- bottom: 0;
- width: 100%;
- top:  1000px;
+  bottom: 0;
+  width: 100%;
+  top:  1000px;
 }
 
 .bottom_nav li{
