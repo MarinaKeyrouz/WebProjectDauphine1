@@ -145,6 +145,8 @@ span.copyright{
   margin-left: 0px;
   top:  0px;
   color: #C0C0C0;
+    text-decoration: none;
+
 }
 /* pied */
 table.animbg_box{
@@ -162,7 +164,7 @@ table.animbg_box{
 */ position: absolute;
   bottom: 0;
   width: 100%;
-  margin-left: 400px;
+  margin-left: 600px;
   top:  970px;
 }
 
