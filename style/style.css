@@ -1,3 +1,9 @@
+/* * { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 .top_nav {
   list-style-type: none;
   margin-left: 280px;
@@ -57,10 +63,12 @@ div.dropdown-content a:hover {background-color: #FFCC66; }
   display: block;
 }
 
-
 /* corps */
-body{
+html{
   background-color: #171924;
+}
+body{
+  
   color: white;   
   margin-right: 400px;   
 }
@@ -149,7 +157,7 @@ table.animbg_box{
   bottom: 0;
   width: 100%;
   margin-left: 400px;
-  top:  1100px;
+  top:  1090px;
   font-size: 10px;
 }
 
