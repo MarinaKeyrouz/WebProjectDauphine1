@@ -66,15 +66,17 @@ div.dropdown-content a:hover {background-color: #FFCC66; }
 /* corps */
 html{
   background-color: #171924;
+  height: 50%;
 }
   body{
   color: white;   
   margin-right: 400px; 
+  max-height: 100%;
 }
 
 .botbarsm{
   position: relative;
-  top:-1700px;
+  top:-1050px;
   margin-left:770px;
 }
 
@@ -98,9 +100,13 @@ h1{
   left: 300px;
   right:900px;
   top:-800px;
+  color:grey;
   font-family: sans-serif;
 }
 
+#smallTitle{
+  color:white;
+}
 .cote{
   float: left;
   border-left: 1px solid yellow;
@@ -111,6 +117,14 @@ h1{
   height: 1000px;
 }
 
+#mainContent{
+  height: 910px;
+  
+}
+
+#textContent{
+  height: 910px;
+}
 #main{
   margin-top: -5px;
 }
@@ -119,15 +133,75 @@ h1{
   text-align: justify;
 }
 
-#rightbox{
+.rightbox{
   border-top: solid orange;
   border-bottom: solid orange;
   border-left: solid orange;
   border-right: solid orange;
-  padding-left: 10px;
-  padding-right: 10px;
+  background-color:#3d3d3d;
   /* width: 400px; */
+  padding-left:10px;
   margin-left: 40px;
+}
+
+#titlebox{
+  margin-top:10px;
+  margin-bottom: 0px;
+  margin-left:0px;
+}
+
+.espace{
+  padding-top:3px;
+}
+
+h5{
+  margin-top:10px;
+  margin-bottom: 5px;
+  margin-left:0px;
+  color:white;
+}
+td.h4{
+  color: white;
+  margin-left:10px;
+}
+
+
+.borderbox{
+  margin-top: 5px;
+  border-bottom: 1px dashed white;
+}
+
+.box input {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.box p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.box input:focus ~ label {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.box input:checked + p {
+  -webkit-line-clamp: unset;
+}
+
+.box input:checked ~ label {
+  display: none;
+}
+
+.box label {
+  margin-left: 250px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 /*.botbarsm{
@@ -143,12 +217,12 @@ h1{
 span.copyright{
   margin-left:740px;
   position: relative;
-  top:-655px;
+  top:-20px;
   font-size: 10px;
 }
 
 table.animbg_box{
-  top: 680px;
+  top: 650px;
   position:absolute;
   left:85%;
 }
@@ -163,7 +237,7 @@ ul.bottom_nav{
   margin-left: 450px;
   width: 100%;
   font-size: 10px;
-  top:  133%;
+  top:  130%;
   /* top:  2500px; */
 }
 
