@@ -6,7 +6,7 @@
 
 .top_nav {
   list-style-type: none;
-  margin-left: 280px;
+  margin-left: 300px;
   margin-top:100px;
   padding: 0px;
   overflow: hidden;
@@ -66,18 +66,24 @@ div.dropdown-content a:hover {background-color: #FFCC66; }
 /* corps */
 html{
   background-color: #171924;
-
 }
   body{
   color: white;   
-  margin-right: 400px;   
+  margin-right: 400px; 
+}
+
+.botbarsm{
+  position: relative;
+  top:-1700px;
+  margin-left:770px;
 }
 
 #title{
   color: #EBB13B;
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: -50px;
   padding-bottom: 6px;
+  margin-right: 0px; 
   border-bottom: 1px dashed white;
 }
 
@@ -87,12 +93,12 @@ h1{
 }
 
 #tablecorps{
-
   border-bottom: 1px dashed white;
   position: relative;
-  left: 0px;
+  left: 300px;
+  right:900px;
+  top:-800px;
   font-family: sans-serif;
-
 }
 
 .cote{
@@ -100,7 +106,7 @@ h1{
   border-left: 1px solid yellow;
   border-right: 1px solid yellow;
   margin-left: 20px;
-  margin-top: -175px;
+  margin-top: -150px;
   margin-right: 30px;
   height: 1000px;
 }
@@ -132,56 +138,47 @@ h1{
 }
 */
 
- span.copyright{
-  font-size: 10px;
-
-}
-
 /* pied */
 
+span.copyright{
+  margin-left:740px;
+  position: relative;
+  top:-655px;
+  font-size: 10px;
+}
 
 table.animbg_box{
-  top: 650px;
+  top: 680px;
   position:absolute;
-  left:70%;
-
+  left:85%;
 }
+
 .space{
   text-indent: 6em;
-
 }
 
-.bottom_nav{
-  /* text-align: left;
-  */
+ul.bottom_nav{
   position: absolute;
   bottom: 0;
-  width: 100%;
-  margin-left: 400px;
-  top:  1090px;
-  font-size: 10px;
-}
-
-.bottom_nav ul{
-  position: absolute;
-  bottom: 0;
+  margin-left: 450px;
   width: 100%;
   font-size: 10px;
+  top:  133%;
   /* top:  2500px; */
 }
 
-.bottom_nav li{
+ul.bottom_nav li{
   display: inline;
 }
 
-.bottom_nav a{
+ul.bottom_nav a{
   color: #d9d9d9;
   text-decoration: none;
   font-weight: bold;
  font-size: 10px;
 }
 
-.bottom_nav a:hover {
+ul.bottom_nav a:hover {
   color: #FFCC33;
   text-decoration: underline;
 }
