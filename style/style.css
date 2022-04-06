@@ -223,8 +223,8 @@ span.copyright{
 
 table.animbg_box{
   top: 650px;
-  position:absolute;
-  left:85%;
+  position: relative;
+    left:85%;
 }
 
 .space{
