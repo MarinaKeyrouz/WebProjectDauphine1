@@ -4,7 +4,7 @@
   box-sizing: border-box;
 } */
 
-.top_nav {
+.nav {
   list-style-type: none;
   margin-left: 29%;
   margin-top:10%;
@@ -12,18 +12,22 @@
   overflow: hidden;
   background-color: #EBB13B;
   color: #993300;
-
+  
 }
 
 .ligne{
   margin-top:2%;
 }
 
-.top_nav li {
+.nav li {
   float: left;
 }
 
-.top_nav li a, .dropbtn {
+/* .wrapper{
+  overflow: auto;
+} */
+
+.nav li a, .mainnav {
   display: inline-block;
   color: #993300;
   font-weight: bold;
@@ -32,11 +36,11 @@
   text-decoration: none;
 }
 
-/* li a:hover, .dropdown:hover .dropbtn {
+/* li a:hover, .dropdown:hover .mainnav {
   background-color: red;
 } */
 
-.top_nav li.dropdown {
+.nav li.dropdown {
   display: inline-block;
 }
 
@@ -62,24 +66,59 @@ div.dropdown-content a:hover {background-color: #FFCC66; }
 .dropdown:hover .dropdown-content {
   display: block;
 }
+#leftContent{
+  float: none;
+  /* width: auto; */
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav{margin-left: 0px; width: 130%;
+    height: auto;
+    }
+  .nav li a, .mainnav { display:  block;}
+  #leftsidebar {width: 0px; float: left;}
+  #mainContent {margin-left: 0px;margin-top: 20%;}
+  .cote{height: 500px;}
+  #logo{width:100px;}
+  #main{margin-top: -5px; width:100px;}
+  #title{margin-left:0px;overflow: auto;}
+  .botbarsm{ margin-left:13%; top:-5400%;}
+  #title{font-size: 20px;}
+  h1{
+    font-size: 10px;
+    /* width: 100%; */
+  }
+  
+  }
+
+  @media screen and (min-width: 600px) {
+    .botbarsm{  margin-left:73%; top:-5750%;}
+    #title{font-size: 40px;}
+    h1{
+      font-size: 30px;
+      /* width: 100%; */
+    }
+    
+  }
+
+
 
 /* corps */
 html{
   background-color: #171924;
   height: 50%;
-  
 }
-  body{
+
+body{
   color: white;   
   margin-right: 28%; 
   max-height: 100%;
- 
+  
 }
 
 .botbarsm{
-  position: relative;
-  top:-5750%;
-  margin-left:73%;
+  position: relative; 
 }
 
 #title{
@@ -91,10 +130,7 @@ html{
   border-bottom: 1px dashed white;
 }
 
-h1{
-  font-size: 30px;
-  /* width: 100%; */
-}
+
 
 #tablecorps{
   border-bottom: 1px dashed white;
@@ -121,7 +157,6 @@ h1{
 
 #mainContent{
   height: 910px;
-  
 }
 
 #textContent{
@@ -226,7 +261,7 @@ span.copyright{
 table.animbg_box{
   top: 650px;
   position: relative;
-    left:85%;
+  left:85%;
 }
 
 .space{
@@ -251,7 +286,7 @@ ul.bottom_nav a{
   color: #d9d9d9;
   text-decoration: none;
   font-weight: bold;
- font-size: 10px;
+  font-size: 10px;
 }
 
 ul.bottom_nav a:hover {
