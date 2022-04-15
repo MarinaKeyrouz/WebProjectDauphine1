@@ -2,7 +2,7 @@
 
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
@@ -33,16 +33,16 @@ ul {
 }
 
 ul li {
-  padding:5px;
+ 
 	position: relative;
 	}
 	
-li ul {
+/* li ul {
 	position: absolute;
-	left: 149px; /* Set 1px less than menu width */
+	left: 149px; /* Set 1px less than menu width 
 	top: 0;
 	display: none;
-	}
+	} */
 
 .topnav{
     display: block;
@@ -69,11 +69,23 @@ li ul {
 
 ul li a:hover { 
   color: #a50921; background: #f9f9f9; 
-
-
 } /* Hover Styles */
-		
-li ul li a { padding: 2px 5px; } /* Sub Menu Styles */
+	
+li ul{
+  display: none;
+  position: absolute;
+  background-color: orange;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+li ul li a { 
+  color: #a50921;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+ } /* Sub Menu Styles */
 		
 li:hover ul, li.over ul { display: block; } /* The magic */
 
