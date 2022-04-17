@@ -32,19 +32,18 @@ ul {
 
 li ul {
 	position: absolute;
-	left: 149px; /* Set 1px less than menu width */
-	top: 0;
 	display: none;
 	}
 
-.topnav{
+.topnav {
     display: block;
     text-decoration: none;
     color: #993300;
-    padding: 5px;
+    padding: 9px;
     border-bottom: 0;
 }
-  
+
+
   ul.dropdown-content {
     display: none;
     position:absolute;
@@ -56,15 +55,15 @@ li ul {
   ul.dropdown-content li{
     float: none;
     color: black;
-    padding: 8px 8px;
     text-decoration: none;
     display: block;
     text-align: left;
   }
+ 
   .subnav{
     float: none;
     color: #993300;
-    padding: 8px 8px;
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
