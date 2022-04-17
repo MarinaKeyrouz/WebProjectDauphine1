@@ -31,9 +31,9 @@
   background-color: red;
 } */
 
-.nav li.dropdown {
+/* .nav li.dropdown {
   display: inline-block;
-}
+} */
 
 div.dropdown-content {
   display: none;
@@ -57,6 +57,8 @@ div.dropdown-content a:hover {background-color: #FFCC66; }
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
 #leftContent{
   float: none;
   /* width: auto; */

@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <link href="style/style.css" rel="stylesheet" type="text/css">
 </head>
-<script language="javascript">
+<!-- <script language="javascript">
 
 startList = function() {
 if (document.all&&document.getElementById) {
@@ -24,7 +24,7 @@ this.className+=" over";
  }
 }
 window.onload=startList;
-</script>
+</script> -->
 </head>
 
 <body>
@@ -35,7 +35,8 @@ window.onload=startList;
             <td align="left" valign="top"><table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td width="11" align="left" valign="top">&nbsp;</td>
-                  <td width="198" align="center" valign="middle" class="border_left_right"><img src="images/logo_a.gif" width="198" height="115" /></td>
+                  <td width="198" align="center" valign="middle" class="border_left_right">
+                    <img src="images/logo_a.gif" width="198" height="115" /></td>
                   <td width="11" align="left" valign="top">&nbsp;</td>
                   <td width="623" align="left" valign="top"><table width="619" border="0" cellspacing="0" cellpadding="0">
                       <tr>
@@ -52,16 +53,16 @@ window.onload=startList;
                               <td  height="30" align="center" valign="middle"><ul id="nav">
   <li><a href="#" class="topnav">Lorem Ipsum 1</a></li>
   <li>| </li>
-  <li>Lorem Ipsum 2
-    <ul>
+  <li class="dropdown">Lorem Ipsum 2
+    <ul class="dropdown-content">
       <li><a href="#" class="subnav">Lorem Ipsum 2_1</a></li>
       <li><a href="#" class="subnav">Lorem Ipsum 2_2</a></li>
       <li><a href="#" class="subnav">Lorem Ipsum 2_3</a></li>
     </ul>
   </li>
   <li> | </li>
-  <li>Lorem Ipsum 3
-    <ul>
+  <li class="dropdown">Lorem Ipsum 3
+    <ul class="dropdown-content">
       <li><a href="#" class="subnav">Lorem Ipsum 3_1</a></li>
       <li><a href="#" class="subnav">Lorem Ipsum 3_2</a></li>
       <li><a href="#" class="subnav">Lorem Ipsum 3_3</a></li>
@@ -70,8 +71,8 @@ window.onload=startList;
     </ul>
 	</li>
   <li> |  </li>
-	  <li>Lorem Ipsum 4
-    <ul>
+  <li class="dropdown">Lorem Ipsum 4
+    <ul class="dropdown-content">
       <li><a href="#" class="subnav">Lorem Ipsum 4_1</a></li>
       <li><a href="#" class="subnav">Lorem Ipsum 4_2</a></li>
       <li><a href="#" class="subnav">Lorem Ipsum 4_3</a></li>
