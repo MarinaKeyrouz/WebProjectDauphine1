@@ -227,14 +227,18 @@ h1{
   .footer,.first_td{
    text-align: left;
   }
-  .border_left_right, .top_1, .borders {
+  .border_left_right, .top_1, .borders,.li_menu {
     display: none;
   }
   .footer{
     font-size:9px;
   }
-  .td_menu li{
-    border-top: 2px dotted rgb(1, 1, 1);
+  .dropdown{
+    padding: 5px;
   }
+  .td_menu li{
+    border-top: 2px solid rgb(1, 1, 1);
+  }
+  
 
 }
