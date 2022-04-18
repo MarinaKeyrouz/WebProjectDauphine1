@@ -29,7 +29,30 @@
 .td_tr_2{
   width:29%;
 }
-
+.space{
+  width:4.16%;
+}
+.news_box{
+  width:46.24%;
+}
+.td_img_bottom{
+  width:278px;
+}
+.td_img_bottom img{
+  width:86%;
+}
+.td_space_bottom{
+  width:24px;
+}
+.td_img_bottom_2{
+  width:309px;
+}
+.td_img_bottom_2 img{
+  width:77%;
+}
+.table_footer{
+  width:845px;
+}
 li {
   display: inline-block;
 }
@@ -109,15 +132,11 @@ li ul {
   }
 
 
-/* Emilie */
-
 body{
   background-color: #171924;
-  color: grey;
-
+  color: rgba(251, 244, 244, 0.727);
 }
-
-h2{
+strong.title,h2{
   color : white;
 }
 .border_left_right {
