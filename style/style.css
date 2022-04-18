@@ -1,3 +1,7 @@
+/**
+Authors : Meryeme HAMAN, Emilie PATHAMMAVONG, Marina KAYROUZ
+**/
+
 /* Représentation des largeurs donnée en % pour permettre the responsive*/
 .media_td{
   width:73.76%;
@@ -61,6 +65,7 @@ img.img_right{
 .table_footer_2{
   width: 95%;
 }
+/**Style des balises HTML pour l'état Desktop normal**/
 li {
   display: inline-block;
 }
@@ -88,8 +93,6 @@ ul {
 
 li ul {
 	position: absolute;
-	/* left: 149px; Set 1px less than menu width */
-	/* top: 0; */
 	display: none;
 }
 
@@ -105,7 +108,6 @@ li ul {
     position:absolute;
     margin-top: 1px;
     background-color:rgb(255, 145, 0);
-    /* min-width: 160px; */
     box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -236,8 +238,11 @@ h1{
   .dropdown{
     padding: 5px;
   }
+  .td_menu{
+    border: 2px solid #993300;
+  }
   .td_menu li{
-    border-top: 2px solid rgb(1, 1, 1);
+    border-top: 2px solid #993300;
   }
   
 
