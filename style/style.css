@@ -69,9 +69,9 @@ li ul {
     display: block;
     text-align: left;
   }
-  
+
  .subnav:hover {background-color: #FFCC66; }
-  
+
   .dropdown:hover ul.dropdown-content {
     display: block;
   }
@@ -91,7 +91,7 @@ body{
 }
 .border_left_right img{
   vertical-align:bottom;
-  width: 198; 
+  width: 198;
   height:120;
 }
 .borders{
@@ -138,14 +138,22 @@ h1{
   text-decoration: underline;
 }
 
-
-
 @media screen and (max-width: 900px) {
-  .bar_left_bg{
-    width: 0%;
-    }
-    
-    .bar_left_bg1{
-      width:0%;
-    }
+ /* je sais pas ce qui doit changer pour le 900px ? c'est la taille par défaut qu'il a mis du coup tout est déja réglé pour 900px */
+}
+
+@media screen and (max-width: 600px) {
+  /* il faudrait que le contenu fasse la largeur de la fenetre, parce qu'en largeur il a mis 900px dans l'html ça bloque */
+  li {
+    display: block;
+  }
+
+  .border_left_right {
+    display: none;
+  }
+
+  .borders{
+    display: none;
+  }
+
 }
