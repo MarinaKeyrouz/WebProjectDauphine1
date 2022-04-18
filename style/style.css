@@ -1,6 +1,9 @@
-
+/* Représentation des largeurs donnée en % pour permettre the responsive*/
 .media_td{
-  width:623px;
+  width:73.76%;
+}
+.td_header{
+  background-color: #EBB13B;
 }
 .table_td{
   width:100%;
@@ -8,20 +11,16 @@
 .table_header{
   width:100%;
 }
-.img_right{
-  width:198px;
-}
+
 .td_text{
   width:625px;
 }
-.table_text{
-  width:605px;
-}
+
 .table_p{
-  width:597px;
+  width:98.6%;    
 }
 .td_p{
-  width:282px;
+  width:47.23%;  
 }
 .td_tr_1{
   width:71%;
@@ -36,7 +35,7 @@
   width:46.24%;
 }
 .td_img_bottom{
-  width:278px;
+  width:46%;
 }
 .td_img_bottom img{
   width:86%;
@@ -45,18 +44,26 @@
   width:24px;
 }
 .td_img_bottom_2{
-  width:309px;
+  width:46%;
 }
 .td_img_bottom_2 img{
-  width:77%;
+  width:86%;
 }
 .table_footer{
-  width:845px;
+  width:100%;
+}
+img.img_right{
+  width:100%;
+}
+.td_footer{
+  width:100%;
+}
+.table_footer_2{
+  width: 95%;
 }
 li {
   display: inline-block;
 }
-
 
 li a {
   display: block;
@@ -64,11 +71,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-/* Change the link color to #111 (black) on hover */
-/* li a:hover {
-  background-color: #111;
-} */
 
 ul {
   list-style-type: none;
@@ -143,17 +145,17 @@ strong.title,h2{
   height: 100px;
   border-left: 1px solid yellow;
   border-right: 1px solid yellow;
-  width : 198px;
+  width : 23.44%;
 }
 .border_left_right img{
   vertical-align:bottom;
-  width: 198;
-  height:120;
+  width: 100%;
+  height:120px;
 }
 .borders{
   border-left: 1px solid yellow;
   border-right: 1px solid yellow;
-  width:198px;
+  width:23.44%;
 }
 
 h1{
@@ -187,6 +189,9 @@ h1{
 
 
 /* fotter */
+.footer{
+  font-size:11px;
+}
 .footer_link {
   color: white;
   text-decoration: none;
@@ -196,22 +201,40 @@ h1{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
- /* je sais pas ce qui doit changer pour le 900px ? c'est la taille par défaut qu'il a mis du coup tout est déja réglé pour 900px */
+/*Responsive*/
+/* Small devices (portrait tablets and large phones, 501px and up) */
+@media screen and (min-width: 501px) and (max-width : 860px) {
+  table.all_content{
+    width:100%;
+  }
+  .footer,.first_td{
+   text-align: left;
+  }
+  .border_left_right, .top_1, .borders {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 600px) {
+/* Extra small devices (phones, 501px and down) */
+@media screen and (max-width: 501px) {
   /* il faudrait que le contenu fasse la largeur de la fenetre, parce qu'en largeur il a mis 900px dans l'html ça bloque */
   li {
     display: block;
   }
-
-  .border_left_right {
+  table.all_content{
+    width:100%;
+  }
+  .footer,.first_td{
+   text-align: left;
+  }
+  .border_left_right, .top_1, .borders {
     display: none;
   }
-
-  .borders{
-    display: none;
+  .footer{
+    font-size:9px;
+  }
+  .td_menu li{
+    border-top: 2px dotted rgb(1, 1, 1);
   }
 
 }
