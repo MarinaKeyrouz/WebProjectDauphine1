@@ -1,3 +1,4 @@
+
 li {
   display: inline-block;
 }
@@ -35,7 +36,7 @@ li ul {
 	left: 149px; /* Set 1px less than menu width */
 	top: 0;
 	display: none;
-	}
+}
 
 .topnav{
     display: block;
@@ -72,6 +73,10 @@ li ul {
   
  .subnav:hover {background-color: #FFCC66; }
   
+ .dropdown{
+  /* position: relative; */
+  display: inline-block;
+ }
  
   .dropdown:hover ul.dropdown-content {
     display: block;
