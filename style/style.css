@@ -175,28 +175,13 @@ h1{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 500px) {
-  body{
-    background-color: rgb(147, 132, 132);
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 501px) and (max-width : 860px) {
-  body{
-    background-color: rgb(61, 61, 34);
-  }
-  .border_left_right{
-    width:20%;
-  }
-  p{
-    width:80%;
-  }
-
-}
-
 
 @media screen and (max-width: 900px) {
-  
+  .bar_left_bg{
+    width: 0%;
+    }
+    
+    .bar_left_bg1{
+      width:0%;
+    }
 }
